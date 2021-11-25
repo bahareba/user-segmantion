@@ -29,3 +29,19 @@ Some examples of customer types include:
 Whales. The biggest customers with high (5,5,5) values in all three factors that should be targeted with special promotions to keep them active.
 New customers. Customers with high recency and low frequency (5,1,X) are new customers. A targeted follow-up may convert them into repeat customers.
 Lapsed customers. Customers with low recency but high value (1,X,5) were once valuable customers but have since stopped. A targeted message may reactivate them
+
+How to perform RFM analysis
+CRM software may integrate RFM analysis, and many add-on packages exist that can take CRM data and automatically measure the RFM factors and provide graphs and suggestions.
+
+Getting started with RFM analysis can be as simple as using a spreadsheet in Excel, however. Organizations can export a customer's purchase history from a CRM database or direct purchase history into the spreadsheet as raw data, for instance. They would then sort by each of the RFM analysis factors and assign a relative score for each value scaled appropriately for their business.
+
+For example, an ice cream stand may assign monetary scores to customers who spend $0-$5 a 1, $10-$20 a 3, and over $100 a 5; while a car dealership may assign under $5,000 a 1 and over $100,000 a 5. Businesses can then use these scores to create overall customer averages and customer segmentation groupings.
+
+Organizations can also use PowerPivot to create interactive charts to aid in analysis.
+
+Limitations of RFM analysis
+Using RFM modeling can provide valuable insights about customers. But it does not take into account many other factors about the customer.
+
+In-depth targeted marketing may also use type of item purchased or customer campaign responses as factors. Customer demographics such as age, sex and ethnicity are not covered in RFM analysis either.
+
+Additionally, RFM only uses historical data about customers and may not predict future customer activity. Predictive methods may be able to identify future customer behavior that RFM analysis cannot.
